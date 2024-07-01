@@ -11,6 +11,10 @@ body {
 
 .card {
     margin-bottom: 2rem;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 
 .btn-primary {
