@@ -1,5 +1,5 @@
 body {
-    padding-top: 56px;
+    padding-top: 0;
     font-family: Arial, sans-serif;
 }
 
@@ -10,6 +10,9 @@ body {
 }
 .text-center{
     margin-bottom: 2rem;
+}
+#Product-desc{
+    margin-top: 2rem;
 }
 .card {
     margin-bottom: 2rem;
@@ -31,4 +34,7 @@ footer {
 
 footer p {
     margin: 0;
+}
+.row{
+    height: 100vh;
 }
