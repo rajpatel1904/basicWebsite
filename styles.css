@@ -1,5 +1,5 @@
 body {
-    padding-top: 56px;
+    padding-top: 0;
     font-family: Arial, sans-serif;
 }
 
@@ -8,9 +8,18 @@ body {
     object-fit: contain; /* Ensure the entire image is visible without cropping */
     background-color: #0e4802; /* Optional: background color to fill empty space */
 }
-
+.text-center{
+    margin-bottom: 2rem;
+}
+#Product-desc{
+    margin-top: 2rem;
+}
 .card {
     margin-bottom: 2rem;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 
 .btn-primary {
@@ -25,4 +34,7 @@ footer {
 
 footer p {
     margin: 0;
+}
+.row{
+    height: 100vh;
 }
