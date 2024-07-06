@@ -11,8 +11,13 @@ body {
 .text-center{
     margin-bottom: 2rem;
 }
-#Product-desc{
+#Product-Description{
     margin-top: 2rem;
+    padding: 0px 0px 0px 0px;
+}
+#Product-Content{
+    text-align: justify;
+    line-height: 25px;
 }
 .card {
     margin-bottom: 2rem;
@@ -34,7 +39,4 @@ footer {
 
 footer p {
     margin: 0;
-}
-.row{
-    height: 100vh;
 }
